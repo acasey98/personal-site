@@ -55,22 +55,26 @@ class Home extends React.Component {
           </div>
           <div className='card-text'>
         <ul>
-          <li><a href='https://walnut-fe6c5.firebaseapp.com/'>Firebase Group Project</a>
+          <li><a href='https://walnut-fe6c5.firebaseapp.com/'>Firebase Group Project</a>/
+          <a href='https://github.com/acasey98/nutshell-walnut'>Github Repo</a>
             <p>On this particular group project, I was responsible for the Username and
               "Diary" functionality, in which full CRUD is implemented.
             </p>
           </li>
-          <li><a href='https://chatty-proj.firebaseapp.com/'>Chatroom Group Project</a>
+          <li><a href='https://chatty-proj.firebaseapp.com/'>Chatroom Group Project</a>/
+          <a href='https://github.com/acasey98/chatty-house-lannister'>Github Repo</a>
           <p>Another group project. I was responsible for the "chatbot", the clear
             message functionality, and the navBar.
             </p>
           </li>
-          <li><a href='https://sandwich-maker-24291.firebaseapp.com/'>Sandwich Maker</a>
+          <li><a href='https://sandwich-maker-24291.firebaseapp.com/'>Sandwich Maker</a>/
+          <a href='https://github.com/acasey98/sandwichmaker3'>Github Repo</a>
           <p>This project showcases my ability to use basic vanilla Javascript, and
             print to the DOM.
             </p>
           </li>
-          <li><a href='https://fish-store-55093.firebaseapp.com/'>Fish Store</a>
+          <li><a href='https://fish-store-55093.firebaseapp.com/'>Fish Store</a>/
+          <a href='https://github.com/acasey98/fish-store'>Github Repo</a>
           <p>This project displays my ability to properly utilize firebase for
             full CRUD, in addition to basic React.
             </p>
