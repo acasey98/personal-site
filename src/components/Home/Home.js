@@ -7,9 +7,9 @@ class Home extends React.Component {
     return (
       // eslint-disable max-len
       <div className="Home">
-        <div id='biocard' className='card d-flex flex-wrap align-center col-7'>
+        <div id='biocard' className='card d-flex flex-wrap align-center col-9'>
         <h2>Austin Casey's Personal Bio Site</h2>
-        <img className='card-img-top' src='https://imgur.com/ZvYNnXi.jpg' alt='Austin Casey'/>
+        <img id='bioimg' className='card-img-top' src='https://imgur.com/ZvYNnXi.jpg' alt='Austin Casey'/>
         <p id='biotxt'>Bio:
           I've always had an affinity for computers, and even more so for games.
           While my dream is to ultimately ascend to game development, I'm savvy
@@ -31,7 +31,7 @@ class Home extends React.Component {
           digital!).
         </p>
         </div>
-        <div id='experience' className='card d-flex flex-wrap align-center col-7'>
+        <div id='experience' className='card d-flex flex-wrap align-center col-6'>
         <h2>Programs, tools, and other technologies that I have experience in:</h2>
         <div id='tech' className='card-text'>
         <ul>
