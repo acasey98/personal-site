@@ -8,9 +8,28 @@
   background-color: black;
   color: white;
   display: flex;
+  text-align: center;
 }
 
 #projects {
   color: white;
+  background-color: black;
   display: flex;
+}
+
+#experience {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#biocard {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#biotxt {
+font-size: 26px;
 }

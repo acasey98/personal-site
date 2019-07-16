@@ -7,9 +7,10 @@ class Home extends React.Component {
     return (
       // eslint-disable max-len
       <div className="Home">
+        <div id='biocard' className='card d-flex flex-wrap align-center col-7'>
         <h2>Austin Casey's Personal Bio Site</h2>
-        <img src='https://imgur.com/ZvYNnXi.jpg' alt='Austin Casey'/>
-        <p>Bio:
+        <img className='card-img-top' src='https://imgur.com/ZvYNnXi.jpg' alt='Austin Casey'/>
+        <p id='biotxt'>Bio:
           I've always had an affinity for computers, and even more so for games.
           While my dream is to ultimately ascend to game development, I'm savvy
           enough to realize that it isn't realistic to attempt to do so without
@@ -29,7 +30,10 @@ class Home extends React.Component {
           concepts they are struggling to grasp or bugs they cannot squash (real AND
           digital!).
         </p>
+        </div>
+        <div id='experience' className='card d-flex flex-wrap align-center col-7'>
         <h2>Programs, tools, and other technologies that I have experience in:</h2>
+        <div id='tech' className='card-text'>
         <ul>
           <li>Javascript</li>
           <li>React</li>
@@ -43,26 +47,30 @@ class Home extends React.Component {
           <li>Gamebyro (Bethesda Game Studios Engine)</li>
           <li>Sony Vegas Pro 11 & 13</li>
         </ul>
-        <h2>Some projects that I'm proud of:</h2>
+        </div>
+        </div>
         <div id='projects' className='card d-flex flex-wrap align-center col-7'>
           <div className='card-header'>
+          <h2>Some projects that I'm proud of</h2>
+          </div>
+          <div className='card-text'>
         <ul>
           <li><a href='https://walnut-fe6c5.firebaseapp.com/'>Firebase Group Project</a>
             <p>On this particular group project, I was responsible for the Username and
               "Diary" functionality, in which full CRUD is implemented.
             </p>
           </li>
-          <li><a href='https://classtracker.zoeames.com/calendar'>Chatroom Group Project</a>
+          <li><a href='https://chatty-proj.firebaseapp.com/'>Chatroom Group Project</a>
           <p>Another group project. I was responsible for the "chatbot", the clear
             message functionality, and the navBar.
             </p>
           </li>
-          <li><a href='https://classtracker.zoeames.com/calendar'>Sandwich Maker</a>
+          <li><a href='https://sandwich-maker-24291.firebaseapp.com/'>Sandwich Maker</a>
           <p>This project showcases my ability to use basic vanilla Javascript, and
             print to the DOM.
             </p>
           </li>
-          <li><a href='https://classtracker.zoeames.com/calendar'>Fish Store</a>
+          <li><a href='https://fish-store-55093.firebaseapp.com/'>Fish Store</a>
           <p>This project displays my ability to properly utilize firebase for
             full CRUD, in addition to basic React.
             </p>
